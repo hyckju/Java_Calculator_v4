@@ -8,7 +8,7 @@ class FinalCalculator extends AdvancedCalculator {
             System.out.println("a는 0보다 크고, b는 1보다 커야합니다");
             return -1;
         }
-        // b가 a보다 작거나 같을때 까지 b를 a와 같을 때까지 a로 계속 나누기 반복 count 지역변수로 나누기한 횟수를 1씩 더하며 저장
+        // b가 a보다 작거나 같을때 까지 b를 a와 같을 때까지 a로 계속 나누기 반복 count 지역변수로 나누기한 횟수를 더하며 저장
         while (a >= b){
             a = a / b;
             count++;
